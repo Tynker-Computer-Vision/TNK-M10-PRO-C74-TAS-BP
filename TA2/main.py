@@ -22,7 +22,7 @@ for img in os.listdir(path):
             # Convert image from BGR to RGB format
             
 
-            # Write the age on the image
+            # Display the age on the image
             
     except:
         print("error in reading")
