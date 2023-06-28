@@ -28,7 +28,5 @@ for img in os.listdir(path):
         print("error in reading")
 
 # Convert ages to np.array
-ages = np.array(ages,dtype=np.int64)
 
 # Print ages
-print("Age",ages)
