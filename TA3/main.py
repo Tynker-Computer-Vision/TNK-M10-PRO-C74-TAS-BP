@@ -37,10 +37,10 @@ for img in os.listdir(path):
     except:
         print("error in reading")
 
-# Convert ages to np.array
+ages = np.array(ages,dtype=np.int64)
 
 # Convert images to np.array
 
-# Print age array
+print("Age",ages)
 
 # Print images array
